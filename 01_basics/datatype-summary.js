@@ -32,6 +32,31 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//*********************************************************/
+
+//stack(primitive),Heap(non-primitive)
+
+let myYoutubename = "DebajyotiTechical"
+
+let anothername = myYoutubename
+anothername = "google"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne={
+    email:"user34@gmail.com",
+    age:56
+}
+let userTwo = userOne
+userTwo.email="deba@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
